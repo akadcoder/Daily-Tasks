@@ -4,7 +4,7 @@
 //(3) whatever you are printing print them inside the inner for loop
 
 
-/* pattern 1 */
+/* pattern 1 
 #include <stdio.h>
 
 int main() {
@@ -19,6 +19,81 @@ int main() {
         printf("\n");  // Move to the next line after each row
     }
     return 0;
+}*/
+
+
+/*pattern 2 
+#include <stdio.h>
+
+int main() {
+
+    int n;
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++) {        // Loop for the number of lines
+        for (int j = 1; j <= i; j++) {    // Loop to print stars in each line
+            printf("* ");
+        }
+        printf("\n");  // Move to the next line after each row
+    }
+    return 0;
+}*/
+
+
+
+/*pattern 3 
+#include<stdio.h>
+int main(){
+
+    for(int i=1; i <= 5; i++){
+    for(int j=1; j<=i; j++){
+    printf("%d",j);
+    }
+    printf("\n");
+    }
+    return 0;
+}*/
+
+
+/*pattern 4 
+#include<stdio.h>
+int main(){
+
+    for(int i=1; i <= 5; i++){
+    for(int j=1; j<=i; j++){
+    printf("%d",i);
+    }
+    printf("\n");
+    }
+    return 0;
+}*/
+
+
+/* pattern 5
+#include <stdio.h>
+
+int main() {
+
+    for (int i = 0; i < 5; i++) {         // Loop for rows
+        for (int j = 0; j < 5-i+1; j++) {     // Loop for columns
+            printf("* ");
+            
+        }
+        printf("\n");  // Move to the next line after each row
+    }
+    return 0;
+} */
+
+
+
+/*pattern 6*/
+#include<stdio.h>
+int main(){
+
+    for(int i=1; i <= 5; i++){
+    for(int j=1; j<=5-i+1; j++){
+    printf("%d",j);
+    }
+    printf("\n");
+    }
+    return 0;
 }
-
-
