@@ -4,7 +4,7 @@
 //(3) whatever you are printing print them inside the inner for loop
 
 
-
+/* pattern 1 */
 #include <stdio.h>
 
 int main() {
@@ -20,4 +20,5 @@ int main() {
     }
     return 0;
 }
+
 
