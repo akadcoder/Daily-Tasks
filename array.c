@@ -5,6 +5,7 @@ int main() {
 
     printf("Array elements are:\n");
     for (int i = 0; i < 5; i++) {
+        
         printf("Element %d: %d\n", i + 1, numbers[i]);
     }
 
