@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-int main() {
-    int day ;
+int main(){
+    int day;
 
     // Input marks
     printf("Enter the day: ");
     scanf("%d", &day);
 
     // Check if the days are valid
-
     switch(day){
         case 1:
         printf("monday");
@@ -40,7 +39,6 @@ int main() {
 
         default:
         printf("enter valid input");
-
     }
 
     
