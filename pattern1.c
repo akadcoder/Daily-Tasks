@@ -64,7 +64,7 @@ int main(){
 }
 
 
-pattern 5
+//pattern 5
 #include <stdio.h>
 
 int main() {
@@ -79,9 +79,7 @@ int main() {
     return 0;
 } 
 
-
-
-pattern 6
+//pattern 6
 #include<stdio.h>
 int main(){
 
@@ -118,5 +116,3 @@ int main() {
 
     return 0;
 }
-
-        
