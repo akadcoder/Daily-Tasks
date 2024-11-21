@@ -3,7 +3,7 @@
 //(2) for the inner loop focus on the columns & connect them some how to the rows
 //(3) whatever you are printing print them inside the inner for loop
 
-pattern 1 
+//pattern 1 
 #include <stdio.h>
 
 int main() {
@@ -20,7 +20,7 @@ int main() {
     return 0;
 }
 
-pattern 2 
+//pattern 2 
 #include <stdio.h>
 
 int main() {
@@ -36,7 +36,7 @@ int main() {
     return 0;
 }
 
-pattern 3 
+//pattern 3 
 #include<stdio.h>
 int main(){
 
