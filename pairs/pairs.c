@@ -1,4 +1,4 @@
-Basic Pair Struct Example
+//Basic Pair Struct Example
 
 #include <stdio.h>
 
@@ -19,8 +19,6 @@ int main() {
 
     return 0;
 }
-
-
 
  /*Array of Pairs*/
 
@@ -50,11 +48,7 @@ int main() {
     return 0;
 }
 
-
-
 /*Pair Initialization Using a Function*/
- 
-
 #include <stdio.h>
 
 typedef struct {
@@ -80,7 +74,6 @@ int main() {
 
 
 /*Nested Pairs*/
-
 #include <stdio.h>
 
 typedef struct {
