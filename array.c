@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int numbers[5] = {10, 20, 30, 40, 50};  // Array of 5 integers
     printf("Array elements are:\n");
