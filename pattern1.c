@@ -1,4 +1,4 @@
-//patterns ---->  NESTED LOOPS
+//patterns --->  NESTED LOOPS
 //(1) for the outer loop count the number of line 
 //(2) for the inner loop focus on the columns & connect them some how to the rows
 //(3) whatever you are printing print them inside the inner for loop
